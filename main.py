@@ -11,14 +11,8 @@ stations_under_construction = []  # Here you can insert any stations that are cl
 
 
 def greet():
-    print("Hi there and welcome to SkyRoute!")
+    print("Hi there and welcome to the Shortest Metro Trip!")
     print("We'll help you find the shortest route between the following Vancouver landmarks:\n" + landmark_string)
-
-
-def skyroute():
-    greet()
-    new_route()
-    goodbye()
 
 
 def set_start_and_end(start_point, end_point):
@@ -96,7 +90,7 @@ def show_landmarks():
 
 
 def goodbye():
-    print("Thanks for using SkyRoute!")
+    print("Thanks for using the Shortest Metro Trip!")
 
 
 def get_route(start_point, end_point):
@@ -118,4 +112,11 @@ def get_route(start_point, end_point):
         return shortest_route
 
 
-skyroute()
+def main():
+    greet()
+    new_route()
+    goodbye()
+
+
+if __name__ == "__main__":
+    main()
