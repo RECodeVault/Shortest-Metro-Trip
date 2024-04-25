@@ -16,7 +16,7 @@ This program utilizes Depth-First Search (DFS) and Breadth-First Search (BFS) al
 
 3. **Start the application:**
     ```bash
-    python skyroute.py
+    python main.py
     ```
 
 ## How to use:
